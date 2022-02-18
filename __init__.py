@@ -22,7 +22,7 @@
 import bpy
 
 bl_info = {
-    "name": "Demo Addon 1",
+    "name": "Demo Addon 2",
     "author": "Joel Benkwitz (BD)",
     "version": (1, 0, 1),
     "blender": (2, 83, 0),
@@ -33,6 +33,6 @@ bl_info = {
 }
 
 def register():
-    print("Demo Addon 1!")
+    print("Demo Addon 2!")
 def unregister():
     pass
